@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.8)  19 JUL 2021 09:10
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.8)  21 JUL 2021 12:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **examples/coverletter.tex
 (./examples/coverletter.tex
 LaTeX2e <2020-10-01> patch level 4
-L3 programming layer <2021-05-07> (examples/awesome-cv.cls
+L3 programming layer <2021-05-07> (./awesome-cv.cls
 Document Class: awesome-cv 2017/02/05 v1.6.1 Awesome Curriculum Vitae Class
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -284,7 +284,7 @@ LaTeX Info: Redefining \] on input line 2924.
 \g__um_primekern_muskip=\muskip17
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/unicode-math/unicode-math-table.t
-ex))) (examples/fontawesome.sty
+ex))) (./fontawesome.sty
 Package: fontawesome 2016/11/23 v4.7.0 font awesome icons
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/sourcesanspro/sourcesanspro.sty
@@ -976,43 +976,39 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/b/n' will be
 (Font)              scaled to size 10.0pt on input line 114.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 14.0pt on input line 121.
+(Font)              scaled to size 10.0pt on input line 135.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 14.0pt on input line 121.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 137.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 137.
+(Font)              scaled to size 10.0pt on input line 135.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <10> not avai
 lable
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 137.
+t line 135.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 137.
+(Font)              scaled to size 10.0pt on input line 135.
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
 
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 139.
+(Font)              scaled to size 8.0pt on input line 137.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
-(Font)              scaled to size 8.0pt on input line 139.
+(Font)              scaled to size 8.0pt on input line 137.
 [1
 
 ] (examples/coverletter.aux)
@@ -1020,12 +1016,12 @@ Package rerunfilecheck Info: File `coverletter.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 31421 strings out of 476775
- 624706 string characters out of 5819478
- 1103858 words of memory out of 5000000
- 51033 multiletter control sequences out of 15000+600000
- 405042 words of font info for 99 fonts, out of 8000000 for 9000
+ 31417 strings out of 476775
+ 624477 string characters out of 5819478
+ 1106844 words of memory out of 5000000
+ 51031 multiletter control sequences out of 15000+600000
+ 405026 words of font info for 97 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 114i,11n,118p,799b,328s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 114i,11n,118p,989b,328s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on examples/coverletter.pdf (1 page).
