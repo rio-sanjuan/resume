@@ -35,32 +35,51 @@
 %         \item {Led effort into customer behavior analytics, leverage big data technologies like Spark and Hadoop to draw conclusions from our massive user clickstream dataset.}
 %       \end{cvitems}
 %     }
-  \cventry
-    {Data Scientist II - Supply Chain Forecasting} % Job title
+  % \cveducationentry
+  %   {Chewy} % Organization  
+  %   {Data Scientist II} % {Data Scientist II - Supply Chain Forecasting} % Job title    
+  %   {Bellevue, WA} % Location
+  %   {Jan 2022 - Present} % Date(s)
+  %   {
+  %     \begin{cvitems}    
+  %       \item {Hello world.}
+  %       % \item {Designed and deployed an end-to-end ML pipeline for forecasting Chewy Autoship orders.}
+  %       % \item {Architected and deployed a Hierarchical Reconciliation framework, allowing for seamless integration with existing forecasting systems and providing a robust and scalable solution for reconciling forecasts across multiple granularities. This framework is now used by a majority of our production ML pipelines and reduces MAPE by up to 4\% at the weekly level.}
+  %       % \item {Full-stack daily work involves}
+
+  %       % \item {Architected and deployed an end-to-end ML pipeline for forecasting Chewy Autoship orders. Combining PySpark for ETL processes via AWS Glue, model training and inference via AWS Sagemaker, and orchestration through Apache Airflow dags, the pipeline outperformed existing heuristic-based model by 3-5\% MAPE.}            
+  %       % \item {Enhanced the core SKU demand model by integrating promotion features, fine-tuning model accuracy and responsiveness to market trends and promotional impacts.}
+  %       % \item {Redesigned unconstrained demand model, which is central to our core SKU demand model. The updated framework includes an ensemble of conversion-rate heuristic models and tree-based models, reducing out-of-stock MAPE by up to 10\%.}
+  %       % \item {Led effort into topic demand forecasting, employing a temporal knowledge graph approach to capture seasonal and thematic trends effectively.}
+  %     \end{cvitems}
+  %   }
+
+  \cveducationentry
     {Chewy} % Organization
+    {Data Scientist/Machine Learning Engineer} % {Data Scientist - Analytics} % Job title    
     {Bellevue, WA} % Location
     {Jan 2022 - Present} % Date(s)
     {
-      \begin{cvitems}    
-        \item {Architected and deployed an end-to-end ML pipeline for forecasting Chewy Autoship orders. Combining PySpark for ETL processes via AWS Glue, model training and inference via AWS Sagemaker, and orchestration through Apache Airflow dags, the pipeline outperformed existing heuristic-based model by 3-5\% MAPE.}    
-        \item {Architected and deployed a Hierarchical Reconciliation framework, allowing for seamless integration with existing forecasting systems and providing a robust and scalable solution for reconciling forecasts across multiple granularities. This framework is now used by a majority of our production ML pipelines.}
-        \item {Enhanced the core SKU demand model by integrating promotion features, fine-tuning model accuracy and responsiveness to market trends and promotional impacts.}
-        \item {Redesigned unconstrained demand model, which is central to our core SKU demand model. The updated framework includes an ensemble of conversation-rate heuristic models and tree-based models, reducing out-of-stock MAPE by up to 10\%.}
-        \item {Led effort into topic demand forecasting, employing a temporal knowledge graph approach to capture seasonal and thematic trends effectively.}
-    \end{cvitems}
+      \begin{cvitems}
+        \item {Designed and deployed an end-to-end ML pipeline for forecasting Autoship orders. Combining subscription-level features with PySpark and AWS Glue, training and inference with AWS Sagemaker, and orchestration through Airflow dags, the pipeline involves automated ETL, tuning, and publishing, outperforming existing heuristic-based approach by up to 5\% MAPE at the weekly level.}
+        \item {Designed and deployed a Hierarchical Reconciliation framework as a callable AWS Sagemaker processing job, allowing for seamless integration with existing forecasting systems and providing a robust and scalable solution for reconciling forecasts across multiple granularities. This framework is now used by a majority of our production ML pipelines.}        
+        \item {Designed and deployed a forecast evaluation framework, allowing for automated comparison of forecast performance across our product catalogue, enabling us to rank model variants for specific use-cases like holiday planning, short-range labor planning, and long-lead buying decisions.}
+        \item {Led multiple white-paper reviews within the team covering the latest research in both the field of Data Science and the eCommerce/operation planning space.}
+        % \item {Worked with our Staff MLE to design and deploy an end-to-end ML pipeline for forecasting aggregate-level series. The pipeline involves the orchestration of both shared and model-specific pre-processing, tuning, and inference. Personally deployed 7 distinct model variants (e.g. XGBoost, LightGBM, CatBoost) that consistently represented in the top 3 performing models presented to leadership during our weekly demand reviews.}
+      \end{cvitems}
     }
 
-    \cventry
-    {Data Scientist - Analytics} % Job title
+  \cveducationentry
     {The Energy Authority} % Organization
+    {Data Scientist} % {Data Scientist - Analytics} % Job title    
     {Bellevue, WA} % Location
-    {Sep 2019 - Dec 2022} % Date(s)
+    {Sep 2019 - Jan 2022} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
         % \item {Revamped Load Forecasting systems for over 30 clients reducing MAPE by 4-10\%, implementing an ensembling approach using models like RNN/CNN and XGBoost with k-fold cross-validation and outlier detection.}
-        \item {Overhauled Hydro Forecasting pipeline by integrating new API data feeds from NW river system and plant-level generation, achieving a 5\% reduction in system-level MAPE.}
-        \item {Lead transition to new CI/CD system for running containerized applications, enabling streamlined deployments and builds and establishing new team standards for project version control and production deployment.}
-        \item {Worked with Software Engineering team to develop model failsafe system providing forecasts to real-time traders during critical data feed failures.}
+        \item {Overhauled Hydro-Power Forecasting pipeline by integrating new data feeds from NW river system and plant-level generation. The system ingests and cleans data from thousands of river meters and achieved a 5\% reduction in system-level forecast MAPE.}
+        \item {Designed and lead transition to new CI/CD system for running containerized models with Docker and GitHub Actions, enabling streamlined deployments and establishing new team standards for project version control and production deployment.}
+        \item {Worked with Software Engineering team to develop model failsafe system. In the case of critical data feed failures, production models revert to failsafe mode and utilize a reduced set of features, ensuring that our real-time traders will always have actionable forecasts 24/7.}
       \end{cvitems}
     }
 

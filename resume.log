@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.8)  15 SEP 2024 19:57
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.8)  23 OCT 2024 13:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -932,10 +932,6 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 6.99925pt on input line 84.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 4.99947pt on input line 84.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 14.0pt on input line 84.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 14.0pt on input line 84.
 
 Overfull \hbox (1.33334pt too wide) in paragraph at lines 84--85
 []$[]$ $[]$$[]$
@@ -946,43 +942,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
-(./examples/resume/summary.tex
+(./examples/resume/skills.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 16.0pt on input line 4.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 (Font)              scaled to size 16.0pt on input line 4.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 9.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 15.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
+(Font)              scaled to size 9.0pt on input line 15.
 ) (./examples/resume/experience.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 11.0pt on input line 51.
+(Font)              scaled to size 12.0pt on input line 70.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 11.0pt on input line 51.
+(Font)              scaled to size 12.0pt on input line 70.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 70.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sl' in size <10> not avai
+lable
+(Font)              Font shape `TU/SourceSansPro(1)/m/it' tried instead on inpu
+t line 70.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/it' will be
+(Font)              scaled to size 10.0pt on input line 70.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sl' in size <9> not avail
+able
+(Font)              Font shape `TU/SourceSansPro(1)/m/it' tried instead on inpu
+t line 70.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/it' will be
+(Font)              scaled to size 9.0pt on input line 70.
+)
+(./examples/resume/certificates.tex
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
+(Font)              scaled to size 10.0pt on input line 16.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 16.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <10> not avai
 lable
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 51.
+t line 16.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 51.
+(Font)              scaled to size 10.0pt on input line 16.
+) (./examples/resume/education.tex)
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 51.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 51.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <9> not avail
-able
-(Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 51.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 9.0pt on input line 51.
-)
-(./examples/resume/education.tex) (./examples/resume/skills.tex
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 9.0pt on input line 14.
-)
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 105.
+(Font)              scaled to size 8.0pt on input line 107.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
-(Font)              scaled to size 8.0pt on input line 105.
+(Font)              scaled to size 8.0pt on input line 107.
  [1
 
 ]
@@ -991,11 +995,11 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 31446 strings out of 476775
- 624949 string characters out of 5819478
- 1113912 words of memory out of 5000000
- 51048 multiletter control sequences out of 15000+600000
- 405018 words of font info for 96 fonts, out of 8000000 for 9000
+ 31451 strings out of 476775
+ 625089 string characters out of 5819478
+ 1114095 words of memory out of 5000000
+ 51052 multiletter control sequences out of 15000+600000
+ 405026 words of font info for 97 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  114i,11n,118p,553b,432s stack positions out of 5000i,500n,10000p,200000b,80000s
 
