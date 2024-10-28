@@ -1,6 +1,4 @@
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
+logs/
+legacy/
 */.DS_Store
 .DS_Store
