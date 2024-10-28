@@ -7,6 +7,7 @@ CV_DIR = cv
 COVERLETTER_DIR = coverletter
 RESUME_SRCS = $(shell find $(RESUME_DIR) -name '*.tex')
 CV_SRCS = $(shell find $(CV_DIR) -name '*.tex')
+SHARED_SRCS = $(shell find shared -name '*.tex')
 
 all: examples clean
 
