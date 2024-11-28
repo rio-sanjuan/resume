@@ -453,7 +453,7 @@
     \\[\acvHeaderAfterNameSkip]%
     \ifthenelse{\isundefined{\@position}}{}{\headerpositionstyle{\@position}\acvHeaderPositionSep}%
     \ifthenelse{\isundefined{\@address}}{}{\headeraddressstyle{\@address\\[\acvHeaderAfterAddressSkip]}}%
-    \vspace{1.0mm}
+    \vspace{1.5mm}
     \headersocialstyle{%
       \newbool{isstart}%
       \setbool{isstart}{true}%

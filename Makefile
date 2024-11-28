@@ -9,7 +9,7 @@ RESUME_SRCS = $(shell find $(RESUME_DIR) -name '*.tex')
 CV_SRCS = $(shell find $(CV_DIR) -name '*.tex')
 SHARED_SRCS = $(shell find shared -name '*.tex')
 
-all: examples clean
+all: examples clean copydesktop
 
 examples: $(foreach x, coverletter cv resume, $x.pdf)
 
@@ -24,3 +24,6 @@ coverletter.pdf: $(COVERLETTER_DIR)/coverletter.tex
 
 clean:
 	rm -f $(OUTPUT_DIR)/*.log $(OUTPUT_DIR)/*.aux $(OUTPUT_DIR)/*.out 
+
+copydesktop:
+	cp $(OUTPUT_DIR)/resume.pdf ~/Desktop/
